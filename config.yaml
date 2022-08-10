@@ -1,0 +1,7 @@
+news_sites:
+  larepublica:
+    url: http://www.larepublica.co
+    queries:
+      homepage_article_links: '.text-fill[not(@class)]/a/@href'
+      article_title: '.div[@class="mb-auto"]//span/text()'
+      article_body: '.div[@class="html-content"]/p/text()'
